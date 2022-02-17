@@ -25,6 +25,16 @@ This respository includes implementations of the algorithm "ReLInear" proposed i
 **TrainQuadraticNetworksViaReLinear**: this directory contains the implementation of ReLinear on a quadratic network. The used dataset is CIFAR10.<br/>
 
 
+## Running Experiments
+
+Please first go to each directory. Each directory consists of two scripts. One is about the network, and the other is the main file.  
+
+```ruby
+>> python TrainCompactQuadraticNetworksViaReLinear/qresnet_smaller.py           
+>> python TrainQuadraticNetworksViaReLinear+ReZero/Rezero_train_56.py    
+>> python TrainQuadraticNetworksViaReLinear/qtrainer_10_5.py        
+```
+
 
 
 
