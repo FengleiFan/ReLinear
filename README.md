@@ -15,7 +15,7 @@ This respository includes implementations of the algorithm "ReLInear" proposed i
   <img width="320" src="https://github.com/FengleiFan/ReLinear/blob/main/Figure_guaranteed_improvements.png">
 </p>
 
-<p align="center">
+<p align="left">
   Figure 2. The performance of a quadratic network trained using the proposed ReLinear method, with an observed improvement than the conventional network of the same structure. $(\gamma_g,\gamma_b)$, $(\alpha_g,\alpha_b)$, and $(\beta_g,\beta_b)$ are hyperparameters of ReLinear. As these hyperparameters increases from 0, the trained model transits from the conventional model to the quadratic, and the model's performance reaches the optimality.
 </p>
 
