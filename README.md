@@ -7,4 +7,6 @@ This respository includes implementations of the algorithm "ReLInear" proposed i
   <img width="320" src="https://github.com/FengleiFan/ReLinear/blob/main/Figure_guaranteed_improvements.pdf">
 </p>
 
-
+<p align="center">
+  Figure 1. The proposed topology
+</p>
