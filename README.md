@@ -20,9 +20,9 @@ This respository includes implementations of the algorithm "ReLInear" proposed i
 </p>
 
 ## Folders 
-**classification**: this directory contains the implementations on classfication tasks;<br/>
-**regression**: this directory contains implementations on simple regression tasks;<br/>
-**fancy_manifoldron**: this directory includes implementations on 3D complex manifolds.<br/>
+**TrainCompactQuadraticNetworksViaReLinear**: this directory contains the implementation of ReLinear on a compact quadratic network. The used dataset is CIFAR10;<br/>
+**TrainQuadraticNetworksViaReLinear+ReZero**: this directory contains implementations of ReLinear+ReZero on a quadratic network. Because the quadratic network is based on the redidual connection, we can combine the proposed ReLinear with [ReZero](https://arxiv.org/pdf/2003.04887.pdf) that was devised for training residual networks;<br/>
+**TrainQuadraticNetworksViaReLinear**: this directory contains the implementation of ReLinear on a quadratic network. The used dataset is CIFAR10.<br/>
 
 
 
