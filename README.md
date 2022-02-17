@@ -19,5 +19,20 @@ This respository includes implementations of the algorithm "ReLInear" proposed i
   Figure 2. The performance of a quadratic network trained using the proposed ReLinear method, with an observed improvement than the conventional network of the same structure. $(\gamma_g,\gamma_b)$, $(\alpha_g,\alpha_b)$, and $(\beta_g,\beta_b)$ are hyperparameters of ReLinear. As these hyperparameters increases from 0, the trained model transits from the conventional model to the quadratic, and the model's performance reaches the optimality.
 </p>
 
+## Folders 
+**classification**: this directory contains the implementations on classfication tasks;<br/>
+**regression**: this directory contains implementations on simple regression tasks;<br/>
+**fancy_manifoldron**: this directory includes implementations on 3D complex manifolds.<br/>
+
+
+
+
+
+
+
+
+
+
+
 
 
