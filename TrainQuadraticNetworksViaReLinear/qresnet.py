@@ -58,7 +58,7 @@ class BasicBlock(nn.Module):
         self.bn1 = nn.BatchNorm2d(planes)
         
         self.conv2r = nn.Conv2d(planes, planes, kernel_size=3, stride=1, padding=1, bias=True)
-        init.kaiming_normal_(self.conv1r.weight)
+        init.kaiming_normal_(self.conv2r.weight)
         self.conv2g = nn.Conv2d(planes, planes, kernel_size=3, stride=1, padding=1, bias=True)
         self.conv2g.weight.data.fill_(0)
         self.conv2g.bias.data.fill_(1)
